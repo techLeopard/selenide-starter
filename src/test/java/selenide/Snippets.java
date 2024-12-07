@@ -19,7 +19,7 @@ public class Snippets {
 
     open("https://google.com");
     open("/customer/orders");
-    open("/", AuthenticationType.BASIC, "user", "password");
+//    open("/", AuthenticationType.BASIC, "user", "password");
 
     Selenide.back();
 
@@ -108,7 +108,7 @@ public class Snippets {
 
     //longer timeouts
     $("").shouldBe(visible, Duration.ofSeconds(30));
-    $("").waitUntil(visible, 30000);  //is deprecated
+//    $("").waitUntil(visible, 30000);  //is deprecated
 
   }
 
